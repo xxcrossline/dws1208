@@ -1,12 +1,17 @@
 body {
 	background: url(../images/gradient.jpg); 
 	margin: 0 auto;
-	line-height: 150%;                                                         
+	line-height: 150%;
+    width: 800px;                                                
 }
 
 img {
-	vertical-align: 200%;
-	float: left;
+	
+        float: right;
+        padding: 10px;
+        vertical-align: 200%;   /*   No longer works due to floats    */                                                           
+
+	
 } 
                                                          
 h1, p, h2 {
@@ -14,9 +19,12 @@ h1, p, h2 {
 	font-family: Helvetica, sans-serif;
 	font-variant: small-caps; 
 	text-align: left;
-	word-spacing: 5px; 
+	word-spacing: 3px; 
 	text-transform: capitalize; 
-	text-indent: 0.5em;                                                      
+	text-indent: 0.5em;
+        padding: 5px;
+
+                                    
 }
 
 ul a {
@@ -50,11 +58,5 @@ h3 {
 	text-shadow: 0.2em 0.5em 0.1em #F00, -0.3em 0.1em 0.1em #0F0, 0.4em -0.3em 0.1em #00F; 
 	letter-spacing: 0.5em;
 	font-size: 22px;
-	font-style: italic;                                                         
+	font-style: italic;
 }
-
-
-                                                          
-
-
-
